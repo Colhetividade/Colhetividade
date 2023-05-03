@@ -1,0 +1,43 @@
+.button_confirm{
+    background-color: #37784F!important;
+    text-transform: capitalize!important;
+}
+
+.button_confirm:hover{
+    background-color: #1e452c!important;
+}
+
+.button_back{
+    background-color:  #afc9b9!important;
+    color: black!important;
+    text-transform: capitalize!important;
+}
+
+.button_back:hover{
+    background-color:  #71927e!important;
+}
+
+.typeSearched{
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+.ConfirmingText{
+    font-size: 26px!important;
+    font-weight: bold!important;
+    color: #37784F!important;
+}
+
+.typo_decor{
+    font-size: 18px!important;
+    color: black!important;
+    text-align: center!important;
+}
+
+.myContent{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column!important;
+    height: 50vh!important;
+}

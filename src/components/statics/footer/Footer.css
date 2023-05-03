@@ -1,0 +1,149 @@
+.containerAll{
+   background-color: #6D4F35!important;
+  /*   background-Color: "#6D4F35"; */
+   height: 120px; 
+   display: flex;
+   justify-content: center;
+}
+
+.logoImg{
+    width: 70px; 
+    height: 70px; 
+}
+
+.Items{
+    width: 80%;
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+    height: 100%;
+}
+
+.boxAll{
+   width: 90%; 
+   height: 100%; 
+   display: flex; 
+   flex-direction: row; 
+   justify-content: space-between!important;
+   align-items: center!important;
+ /*   background-color: purple; */
+}
+
+.boxWrap{
+  /*   background-color: orange; */
+  margin-left: 210px;
+}
+
+.typoName{
+    font-size:16px!important;
+    font-weight: 300!important;
+}
+
+.networks{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important; 
+    flex-direction: row!important; 
+    width: 200px;
+    height: 50%;
+/*      background-color: crimson;  */
+}
+
+.icon_net{
+    width: 50px!important;
+    height: 50px!important;
+}
+
+
+@media only screen and (max-width: 1069px) {
+    .boxWrap{
+        margin-left: 180px;
+      }
+}
+
+@media only screen and (max-width: 951px) {
+    .boxWrap{
+        margin-left: 120px;
+      }
+}
+
+@media only screen and (max-width: 851px) {
+    .boxWrap{
+        margin-left: 90px;
+      }
+}
+
+@media only screen and (max-width: 793px) {
+    .icon_net{
+        width: 40px!important;
+        height: 40px!important;
+    }
+
+    .networks{
+        width: 150px;
+    }
+
+    .boxAll{
+        width: 90%; 
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .boxWrap{
+        margin-left: 60px;
+      }
+}
+
+@media only screen and (max-width: 687px) {
+    .boxWrap{
+        margin-left: 1px;
+      }
+
+      .Items{
+        width: 70%!important;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .Items{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 659px) {
+    .logoImg{
+        width: 50px; 
+        height: 50px; 
+    }
+
+    .typoName{
+        font-size:12px!important;
+    }
+
+    .icon_net{
+        width: 35px!important;
+        height: 35px!important;
+    }
+
+    .networks{
+        width: 120px;
+    }
+
+    .boxWrap{
+        margin-left: 40px;
+      }
+}
+
+
+@media only screen and (max-width: 557px) {
+    .boxWrap{
+        margin-left: 0px;
+      }
+}
+
+
+@media only screen and (max-width: 495px) {
+    .Items{
+        flex-direction: column;
+    }
+}

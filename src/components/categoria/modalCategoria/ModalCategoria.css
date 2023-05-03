@@ -1,0 +1,10 @@
+.btnModal {
+    background-color: #37784f !important;
+    color: white !important;
+    border: none!important;
+    height: 50px!important;
+}
+
+.btnModal:hover {
+    background-color: #1f442c!important;
+}

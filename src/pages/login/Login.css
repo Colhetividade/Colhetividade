@@ -1,0 +1,85 @@
+.cardStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column wrap;
+    margin: 0 !important;
+}
+
+.curvaBorda{
+border-radius: 15px !important;
+border: 0px none #e2e2e1 !important;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    background-color: #4F9368 !important;
+    color: white !important;
+    height: 56px;
+    width: 116px;
+    text-transform: capitalize !important;
+}
+
+.botao2{
+    color: #4F9368 !important;
+    text-transform: capitalize !important;
+    padding: 5px !important;
+    
+}
+
+.color{
+    background-color: #4F9368 !important;
+}
+.cadastreSe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin-top: 17px !important;
+}
+
+.formText{
+    background-color: white;
+    
+    
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+.card{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; 
+    padding: 25px;
+    flex-direction: column;
+}
+
+.card2{
+    
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    height: 300px;
+    width: 400px;
+}
+
+.botao:hover{
+    background-color: #074118 !important;
+}
+
+.botao2:hover{
+    color: #074118 !important;
+}
+
+.margin{
+    margin: 15px;
+}

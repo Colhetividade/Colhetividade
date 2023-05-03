@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.cardStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    flex-flow: column nowrap;
+}
+
+.color{
+    background-color: #4F9368;
+    width: 40vw;
+}
+
+.formText{
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+
+    
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin-top: 150px!important;
+}
+
+.botao{
+    background-color: #37784F !important;
+}
+
+.card{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; 
+    padding: 25px;
+    flex-direction: column;
+}
+
+.margin1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.curvaBorda{
+border-radius: 15px !important;
+border: 0px none #e2e2e1 !important;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    background-color: #4F9368 !important;
+    color: white !important;
+    height: 56px;
+    width: 116px;
+    text-transform: capitalize !important;
+}
+
+.botao2{
+    color: #4F9368 !important;
+    text-transform: capitalize !important;
+}
+
+.color{
+    background-color: #4F9368 !important;
+}
+.cadastreSe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 150px;
+}
+
+.card{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; 
+    padding: 25px;
+    flex-direction: column;
+}
+
+.card2{
+    
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    height: 300px;
+    width: 400px;
+}
+
+.botao:hover{
+    background-color: #074118 !important;
+}
+
+.botao2:hover{
+    color: #074118 !important;
+}

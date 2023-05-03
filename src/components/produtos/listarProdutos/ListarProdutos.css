@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+    background-color: linear-gradient(135deg,
+            rgb(238, 238, 238) 0%,
+            rgb(169, 184, 195) 100%);
+}
+
+.cardCadastro {
+    text-decoration: none;
+    width: 450px;
+    height: 500px;
+    box-shadow: 5px 5px 18px #888888;
+   
+}
+
+.card-produtos{
+   /*  background-color: red; */
+    width: 100px!important;
+}
+
+
+.botao1 {
+    background-color: white !important;
+    color: #37784f !important;
+    font-weight: bold !important;
+    border: 1px solid #37784f !important;
+    /* margin-left: 5vw !important; */
+    width: 100%;
+    
+}
+
+.btn {
+    background-color: #37784f !important;
+    color: white !important;
+    border: none !important;
+    height: 50px !important;
+    margin-left: 40vw !important;
+    margin-top:10px;
+  
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.btn:hover {
+    background-color: #1f442c !important;
+}
+
+.botao1:hover {
+    background-color: #37784f !important;
+    color: white !important;
+}
+
+.banner_produtos {
+    background-image: url(../../../assets/img/banner_home.png);
+    background-size: cover;
+    height: 63vh;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    width: 100vw;
+    text-decoration: none !important;
+    
+}
+
+.textdecoration{
+    text-decoration: none;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.card-foto {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.preco {
+    font-weight: bolder;
+    color: #37784f !important;
+    margin-top: 15px;
+}
+
+.excluir,
+.edit {
+    color: #afc9b9 !important;
+}
+

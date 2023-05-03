@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.imgCart{
+    width: 250px!important;
+}
+
+.cardContainer{
+    display: flex!important;
+    width: 800px!important;
+    height: 330px!important;
+    border-radius: 20px!important;
+    border-color: #37784F!important;
+}
+
+.nameProduct{
+    color: #37784F;
+    font-weight: bold!important;
+    font-size: 27px!important;
+}
+
+.top{
+    margin-top: 10px!important;
+}
+
+.total{
+    font-weight: bold!important;
+    font-size: 20px!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.total::before {
+    color: #37784F !important;
+    content: "Total: ";
+}
+
+.wrapdonation{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.wrapdonation input{
+    margin-left: 10px;
+}
+
+
+.inputquantitywrap{
+    margin-top: 10px!important;
+   
+}
+.inputquantity{
+    border-radius: 20px;
+}
+
+.cardProduct{
+    display: flex!important;
+    align-items: center;
+}
+
+.cardProduct img{
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.cardProductInfo{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 50px;
+    width: 250px;
+}
+
+.cardProductButton{
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.cardProductButton button{
+    width: 200px!important;
+}
+
+.containerWrap{
+    display: flex!important;
+    flex-direction: column!important;
+/*     background-color: red; */
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxbutton{
+    margin-top: 40px;
+}
+
+.btnconfirm{
+    background-color: #37784F!important;
+    text-transform: capitalize!important;
+    color: white!important;
+}
+
+.btnconfirm:hover{
+    background-color: #20452e!important;
+}
+
+.btncancel{
+    background-color: #afc9b9!important;
+    text-transform: capitalize!important;
+}
+
+.btncancel:hover{
+    background-color:  #71927e!important;
+}
+
+/*aa*/
+.inputquantity::-webkit-inner-spin-button,
+.inputquantity {
+  border: 1px solid #20452e!important;
+  background-color: rgb(242, 242, 242);
+  border-radius: 4px!important;
+  font-size: 16px!important;
+  height: 50px!important;
+  width: 100%!important;
+}

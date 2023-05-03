@@ -1,0 +1,18 @@
+.textoModal{
+  font-size: 11px;
+  /* background-color: red; */
+  text-align: justify;
+  height: 390px;
+  width: 450px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.textoModalDesafios{
+  font-size: 12px;
+/*   background-color: red; */
+  text-align: justify;
+  height: 390px;
+  width: 650px;
+  margin-bottom: 60px;
+}

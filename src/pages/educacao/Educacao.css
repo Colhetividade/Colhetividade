@@ -1,0 +1,44 @@
+.fundo {
+    background-color: #FAFAFA;
+}
+
+.textoEdu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 10px;
+
+    max-width: 460px;
+
+    text-align: center;
+
+    
+
+    margin-top: 80px;
+    
+    font-size: 35px;
+
+
+}
+
+.texto3 {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.cardEduca {
+    background-color: #37784F !important;
+    margin: 20px;
+
+    box-shadow: 5px 5px 18px #888888 !important;
+
+    border-radius: 9% !important;
+}
+
+.diveducawrap{
+    
+    margin-top: 40px!important;
+}

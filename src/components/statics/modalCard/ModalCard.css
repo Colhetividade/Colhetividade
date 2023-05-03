@@ -1,0 +1,31 @@
+.txtButton {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+.btnModalEducacao {
+    margin-top: 20px;
+    background: #FFB468 !important;
+    border-radius: 30px;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    width: 217px;
+    height: 60px;
+    text-transform: capitalize !important;
+}
+
+.btnModal:hover{
+   background-color: #AFC9B9     !important;
+}
+
+.tdajdia{
+    background-color: rgb(246, 246, 246)!important;
+    border-radius: 25px!important;
+    border:solid 0.5px!important;
+}

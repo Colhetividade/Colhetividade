@@ -1,0 +1,43 @@
+.typo_size{
+    font-size: 28px!important;
+    font-weight: bold!important;
+    color: #37784F!important;
+}
+
+.btn_send{
+    margin-top: 20px!important;
+    background-color: #37784F!important;
+    text-transform: capitalize!important;
+}
+
+.btn_send:hover{
+    background-color: #20452e!important;
+}
+
+.btn_cancel{
+    margin-top: 20px!important;
+    background-color:  #afc9b9!important;
+    color: black!important;
+    text-transform: capitalize!important;
+}
+
+.btn_cancel:hover{
+    background-color:  #71927e!important;
+}
+
+.formAllCategory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topoCadastroCategoria{
+    margin-top: 50px;
+} 
+
+.buttons{
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+}

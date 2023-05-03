@@ -1,0 +1,181 @@
+.typo_size{
+    font-size: 28px!important;
+    font-weight: bold!important;
+    color: #37784F!important;
+}
+
+.btn_send{
+    margin-top: 20px!important;
+    background-color: #37784F!important;
+    text-transform: capitalize!important;
+}
+
+.btn_send:hover{
+    background-color: #20452e!important;
+}
+
+.btn_cancel{
+    margin-top: 20px!important;
+    background-color:  #afc9b9!important;
+    color: black!important;
+    text-transform: capitalize!important;
+}
+
+.btn_cancel:hover{
+    background-color:  #71927e!important;
+}
+
+
+.btn_teste:hover{
+    background-color:  #71927e!important;
+}
+
+.formAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.topoCadastroProdutos{
+    min-height: 100vh;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+   
+} 
+
+.formularioCadastroProduto{
+    margin-top: 80px;
+}
+.buttons{
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    flex-flow: column wrap !important;
+}
+
+.alinhar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img {
+    height: 100vh;
+    width: 50vw;
+}
+
+.card {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-flow: column nowrap !important;
+    background-color: #4F9368 !important;
+    color: rgb(165, 159, 159);
+    text-decoration: none !important;
+    padding: 25px;
+}
+
+.form-text {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    background-color: white;
+    text-decoration: none !important;
+    border: none !important;
+    border-color: transparent !important;
+    padding-left: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.borda {
+    border-radius: 15px !important;
+}
+
+.margin1 {
+    margin: 20px !important;
+}
+
+.botao {
+    background-color: #1b5330 !important;
+    color: white !important;
+    height: 56px;
+    width: 156px;
+    text-transform: capitalize !important;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alinhar3 {
+    background-image: url("../../../assets/img/cadastroprodutos.jpg")!important;
+    background-repeat: no-repeat;
+    height: 710px!important;
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario_input {
+    padding: 16px !important;
+    border-radius: 15px !important;
+}
+
+.label:hover {
+    color: green !important;
+
+}
+
+.MuiInput-underline:before {
+    border-bottom: transparent !important;
+}
+
+.MuiInput-underline:after {
+    border-bottom: transparent !important;
+
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border: none !important;
+}
+
+.MuiInputLabel-root {
+    padding-left: 20px !important; /* ou outra quantidade desejada */
+  }
+
+  .selector{
+    background-color:  #a9d2b5;
+    border-radius: 07px;
+    padding-left: 15px;
+  }
+
+  .selector:hover{
+    background-color:  #7f9e88;
+  }
+
+  .inputla{
+    margin-right: 180px;
+    /* background-color: red; */
+    width: 203px;
+    margin-bottom: 5px;
+    font-weight: bold!important;
+  }
