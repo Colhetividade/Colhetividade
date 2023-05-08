@@ -66,6 +66,10 @@
     width: 400px; 
 }
 
+.testingtest{
+    color: red;
+}
+
 .cadastreSe{
     display: flex;
     justify-content: center;
