@@ -78,28 +78,28 @@ export default function Cadastro() {
         }
     }
     return (
-        <Grid container className='cardStyle'>
-            <Box className='cardStyle'>
-                <img className='logo' src="/logo.png" alt="" />
+        <Grid container className='cardStyleCadastro'>
+            <Box className='cardStyleCadastro'>
+                <img className='logoCadastroUser' src="/logo.png" alt="" />
                 <Typography className='margin1' variant='h4' gutterBottom color="textPrimary" component='h4' align='center' style={{ fontWeight: 'bold' }}>Cadastre-se</Typography>
-                <Card className='curvaBorda color card margin1' sx={{ minWidth: 600, minHeight: 580 }}  >
+                <Card className='curvaBordaFormLogin colorCadastro card margin1'  >
                     <CardContent>
                         <form onSubmit={cadastrar}>
-                            <TextField className='formText curvaBorda' value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='nome' label='nome' variant='outlined' name='nome' margin='normal' placeholder='Insira seu nome' required fullWidth></TextField>
-                            <TextField className='formText curvaBorda' value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='usuario' variant='outlined' name='usuario' margin='normal' placeholder='Insira um email válido' required fullWidth></TextField>
-                            <TextField className='formText curvaBorda' value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='senha' variant='outlined' name='senha' margin='normal' type='password'required fullWidth></TextField>
+                            <TextField className='formText curvaBorda' value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='nome' label='Nome' variant='outlined' name='nome' margin='normal' placeholder='Insira seu nome' required fullWidth></TextField>
+                            <TextField className='formText curvaBorda' value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='E-mail' variant='outlined' name='usuario' margin='normal' placeholder='Insira um email válido' required fullWidth></TextField>
+                            <TextField className='formText curvaBorda' value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='Senha' variant='outlined' name='senha' margin='normal' type='password'required fullWidth></TextField>
                             <TextField className='formText curvaBorda' value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)} id='confirmarSenha' label='Confirmar Senha' variant='outlined' name='confirmarSenha' margin='normal' type='password' placeholder='Insira novamente a senha' required fullWidth />
                             <TextField className='formText curvaBorda' value={user.tipoUsuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='tipoUsuario' label='Tipo do Usuario' variant='outlined' name='tipoUsuario' margin='normal' required fullWidth></TextField>
-                            <TextField className='formText curvaBorda' value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='foto' label='foto' variant='outlined' name='foto' margin='normal' placeholder='Insira um link de foto' fullWidth></TextField>
+                            <TextField className='formText curvaBorda' value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='foto' label='Link da Foto' variant='outlined' name='foto' margin='normal' placeholder='Insira um link de foto' fullWidth></TextField>
                             <CardActions className='center'>
                                 <Button className='botao' variant="contained" type='submit'>Cadastar</Button>
                             </CardActions>
                         </form>
                     </CardContent>
                 </Card >
-                <Box className='cadastreSe'>
-                    <p>Já tenho uma conta</p>
-                    <Link to='/login'>
+                <Box className='logarSe'>
+                    <p>Já tem uma Conta?</p>
+                    <Link to='/login' className='textDecorationNone'>
                         <Typography className='botao2'>Login</Typography>
                     </Link>
                 </Box>
