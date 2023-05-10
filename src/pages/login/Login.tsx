@@ -75,13 +75,13 @@ function Login() {
     return (
         <Grid container className='cardStyle'>
             <Box className='cardStyle'>
-                <img className='logo' src="/logo.png" alt="" />
+                <img className='logoLogin' src="/logo.png" alt="" />
                 <Typography variant='h4' gutterBottom color="textPrimary" component='h4' align='center' style={{ fontWeight: 'bold' }}>Login</Typography>
-                <Card className='curvaBorda color card' sx={{ minWidth: 500, minHeight: 380 }}  >
+                <Card className='curvaBordaLoginUser colorLogin card'>
                     <CardContent>
                         <form className='card2' onSubmit={logar}>
-                            <TextField className='formText curvaBorda' value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='usuario' variant='outlined' name='usuario' margin='normal' fullWidth></TextField>
-                            <TextField className='formText curvaBorda' value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth></TextField>
+                            <TextField className='formTextLogin curvaBorda' value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='E-mail' variant='outlined' name='usuario' margin='normal' fullWidth></TextField>
+                            <TextField className='formTextLogin curvaBorda' value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='Senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth></TextField>
                             <Box className='center'>
                                 <CardActions>
                                     <Button className='botao' variant="contained" type='submit'>Login</Button>
@@ -91,9 +91,9 @@ function Login() {
                     </CardContent>
                 </Card >
                 <Box className='cadastreSe'>
-                    <p>Não tem uma conta?</p>
-                    <Link to='/cadastro'>
-                        <Button className='botao2'>Cadastre-se</Button>
+                    <p className='pTextLogin'>Não tem uma conta?</p>
+                    <Link to='/cadastro' className='textDecorationNone'>
+                        <Button className='botao2Cadastro'>Cadastre-se</Button>
                     </Link>
                 </Box>
             </Box>
@@ -101,6 +101,4 @@ function Login() {
     )
 }
 
-
 export default Login;
-

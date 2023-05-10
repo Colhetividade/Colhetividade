@@ -1,60 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.cardStyle{
+.cardStyleCadastro {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 100%;
     flex-flow: column nowrap;
+   /*  background-color: red; */
 }
 
-.color{
+.colorCadastro {
     background-color: #4F9368;
-    width: 40vw;
+    width: 600px !important;
+    height: 600px !important;
 }
 
-.formText{
+.formText {
     background-color: white;
     font-family: 'Inter', sans-serif;
-
-    
 }
 
-.logo{
+.logoCadastroUser {
     width: 75px;
     height: 75px;
-    margin-top: 150px!important;
+    margin-top: 70px !important;
 }
 
-.botao{
+.botao {
     background-color: #37784F !important;
 }
 
-.card{
+.card {
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important; 
+    justify-content: center !important;
     padding: 25px;
     flex-direction: column;
 }
 
-.margin1{
+.margin1 {
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.curvaBorda{
-border-radius: 15px !important;
-border: 0px none #e2e2e1 !important;
+.curvaBorda {
+    border-radius: 15px !important;
+    border: 0px none #e2e2e1 !important;
 }
 
-.center{
+.curvaBordaFormLogin {
+    border-radius: 15px !important;
+    border: 0px none #e2e2e1 !important;
+}
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.botao{
+.botao {
     background-color: #4F9368 !important;
     color: white !important;
     height: 56px;
@@ -62,15 +67,17 @@ border: 0px none #e2e2e1 !important;
     text-transform: capitalize !important;
 }
 
-.botao2{
+.botao2 {
     color: #4F9368 !important;
     text-transform: capitalize !important;
+    margin-left: 07px !important;
 }
 
-.color{
+.color {
     background-color: #4F9368 !important;
 }
-.cadastreSe{
+
+.logarSe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,16 +86,19 @@ border: 0px none #e2e2e1 !important;
     margin-bottom: 150px;
 }
 
-.card{
+.textDecorationNone {
+    text-decoration: none;
+}
+
+.card {
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important; 
+    justify-content: center !important;
     padding: 25px;
     flex-direction: column;
 }
 
-.card2{
-    
+.card2 {
     display: flex !important;
     justify-content: space-between !important;
     flex-direction: column !important;
@@ -96,10 +106,83 @@ border: 0px none #e2e2e1 !important;
     width: 400px;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: #074118 !important;
 }
 
-.botao2:hover{
+.botao2:hover {
     color: #074118 !important;
+}
+
+@media only screen and (max-width: 652px) {
+
+    .colorCadastro {
+        background-color: #4F9368;
+        width: 520px !important;
+        height: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 574px) {
+
+    .colorCadastro {
+        background-color: #4F9368;
+        width: 420px !important;
+        height: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    .colorCadastro {
+        background-color: #4F9368;
+        width: 380px !important;
+        height: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 422px) {
+
+    .colorCadastro {
+        background-color: white !important;
+        width: 300px !important;
+        height: 600px !important;
+    }
+
+    .Toastify__toast {
+        width: 100%;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    .colorCadastro {
+        background-color: white !important;
+        width: 100% !important;
+        height: 600px !important;
+    }
+
+    .Toastify__toast {
+        width: 100%;
+        height: 80px;
+    }
+
+    .curvaBordaFormLogin {
+        border-radius: 1px !important;
+        border: 0px none #e2e2e1 !important;
+    }
+}
+
+@media only screen and (max-width: 293px) {
+    .colorCadastro {
+        background-color: white !important;
+        width: 100%!important;
+        height: 600px !important;
+    }
+
+    .cardStyleCadastro {
+        width: 100%;
+      /*   background-color: red; */
+    }
 }

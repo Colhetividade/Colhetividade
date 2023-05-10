@@ -1,15 +1,39 @@
+
 .cardStyle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-flow: column wrap;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    height: 100%!important;
+    width: 100%!important;
+    flex-flow: column nowrap;
     margin: 0 !important;
+    /* background-color: rebeccapurple; */
+}
+
+.logoLogin{
+    width: 75px;
+    height: 75px;
+    margin-top: 30px;
+}
+
+.curvaBordaLoginUser{
+    border-radius: 15px !important;
+    border: 0px none #e2e2e1 !important;
 }
 
 .curvaBorda{
-border-radius: 15px !important;
-border: 0px none #e2e2e1 !important;
+    border-radius: 15px !important;
+    border: 0px none #e2e2e1 !important;
+}
+
+.colorLogin{
+    background-color: #4F9368;
+    width: 500px!important;
+    height: 350px!important; 
+}
+
+.textDecorationNone{
+    text-decoration: none;
 }
 
 .center{
@@ -26,35 +50,6 @@ border: 0px none #e2e2e1 !important;
     text-transform: capitalize !important;
 }
 
-.botao2{
-    color: #4F9368 !important;
-    text-transform: capitalize !important;
-    padding: 5px !important;
-    
-}
-
-.color{
-    background-color: #4F9368 !important;
-}
-.cadastreSe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row nowrap;
-    margin-top: 17px !important;
-}
-
-.formText{
-    background-color: white;
-    
-    
-}
-
-.logo{
-    width: 75px;
-    height: 75px;
-}
-
 .card{
     display: flex !important;
     align-items: center !important;
@@ -64,12 +59,25 @@ border: 0px none #e2e2e1 !important;
 }
 
 .card2{
-    
     display: flex !important;
     justify-content: space-between !important;
     flex-direction: column !important;
     height: 300px;
-    width: 400px;
+    width: 400px; 
+}
+
+.cadastreSe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 17px !important;
+}
+
+.botao2Cadastro{
+    color: #4F9368 !important;
+    text-transform: none!important;
+    font-size: 16px!important;
 }
 
 .botao:hover{
@@ -80,6 +88,92 @@ border: 0px none #e2e2e1 !important;
     color: #074118 !important;
 }
 
+.formTextLogin{
+    background-color: white; 
+}
+
 .margin{
     margin: 15px;
+}
+
+@media only screen and (max-width: 530px) {
+
+    .colorLogin{
+        background-color: #4F9368;
+        width: 430px!important;
+        height: 350px!important; 
+    }
+
+    .formTextLogin{
+        background-color: white;
+        width: 250px!important; 
+    }
+
+    .card2{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        align-items: center!important;
+        height: 300px;
+        width: 400px; 
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .colorLogin{
+        background-color: #4F9368;
+        width: 330px!important;
+        height: 350px!important; 
+    }
+
+}
+
+@media only screen and (max-width: 368px) {
+
+    .colorLogin{
+        background-color: #4F9368;
+        width: 300px!important;
+        height: 350px!important; 
+    }
+
+}
+
+@media only screen and (max-width: 323px) {
+
+    .colorLogin{
+        background-color: white!important;
+        width: 100%;
+        height: 350px!important; 
+    }
+}
+
+@media only screen and (max-width: 314px) {
+
+    .colorLogin{
+        background-color: white!important;
+        width: 100%!important;
+        height: 350px!important; 
+    }
+
+    .curvaBordaLoginUser{
+        border-radius: 1px !important;
+        border: 0px none #e2e2e1 !important;
+    }
+
+    .botao2Cadastro{
+        font-size: 12px!important;
+    }
+
+    .pTextLogin{
+        font-size: 12px!important;
+    }
+}
+
+@media only screen and (max-width: 266px) {
+    .formTextLogin{
+        background-color: white; 
+        width: 200px!important;
+    }
 }
