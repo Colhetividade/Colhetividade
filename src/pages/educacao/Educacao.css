@@ -6,20 +6,25 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
     padding: 10px;
-
-    max-width: 460px;
-
+    width: 250px;
     text-align: center;
-
-    
-
-    margin-top: 80px;
-    
     font-size: 35px;
+  /*   background-color: green; */
+}
 
+.educationdivwrap{
+    /* background-color: purple; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 
+.imgPhotoEducation{
+   /*  background-color: red; */
+    width: 390px;
 }
 
 .texto3 {
@@ -32,9 +37,7 @@
 .cardEduca {
     background-color: #37784F !important;
     margin: 20px;
-
     box-shadow: 5px 5px 18px #888888 !important;
-
     border-radius: 9% !important;
 }
 
@@ -42,3 +45,59 @@
     
     margin-top: 40px!important;
 }
+
+
+@media only screen and (max-width: 692px) {
+    .textoEdu h1{
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 652px) {
+    .imgPhotoEducation{
+   /*  background-color: red; */
+    width: 320px;
+    height: 250px;
+}
+}
+
+@media only screen and (max-width: 572px) {
+    .imgPhotoEducation{
+  /*   background-color: red; */
+    width: 270px;
+    height: 210px;
+}
+}
+
+@media only screen and (max-width: 456px) {   
+.texto3{
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 448px) {   
+.educationdivwrap{
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 282px) {   
+    .imgPhotoEducation{
+   /*  background-color: red; */
+    width: 210px;
+    height: 170px;
+}
+
+.textoEdu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 35px;
+   /*  background-color: green; */
+}
+}
+

@@ -56,24 +56,24 @@ function ListarProdutos() {
 
   return (
     <>
-    
-        <Grid container>
+        <Grid container className='WrapAllListProducts'>
           <Grid alignItems="center" item className='banner_produtos' >
-            <Box >
-              <Typography variant="h1" gutterBottom color="textPrimary" className="text-decoration-none nameBanner"component="h1" align="center">Produtos</Typography>
-              <Link to="/cadastrarProduto" className='textdecoration'>
+            <Box className='BoxBannerProducts' >
+              <Typography variant="h1" gutterBottom color="textPrimary" className="text-decoration-none nameBannerProducts" component="h1" align="center">Produtos</Typography>
+              <Link to="/cadastrarProduto" className='text-decoration-none'>
               <Button className="btn">Cadastrar um novo produto</Button>
               </Link>
             </Box>
           </Grid>
           </Grid>
    
-     
+     <div className='h1prods'>
       <h1> Nossos Produtos </h1>
-      <Grid container spacing={2}>
+     </div>
+      <Grid container spacing={2} className='wrapgridprod'>
         {
           produtos.map(produto => (
-            <Grid className="card-produtos" item xs={3} key={produto.id}>
+            <Grid className="card-produtos" item  key={produto.id} xs={11} md={3} >
               <Card >
                 <CardContent>
                   <Box display="flex" flexDirection="row-reverse" >

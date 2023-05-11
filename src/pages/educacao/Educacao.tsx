@@ -38,18 +38,21 @@ function Educacao() {
 
             <Grid container direction="row" justifyContent="center" alignItems="center" className='fundo'>
                 <Grid item xs={12} direction='row' justifyContent="center" display="flex">
+                    <div className='educationdivwrap'>
+                    
                     <div className='textoEdu'>
                         <h1>Educa+</h1>
                         <p className='texto3'> Um espaço de aprendizagem para você descobrir mais sobre agricultura familiar</p>
                     </div>
                     <div>
-                        <img src={fotoEducacao} alt="pessoa segurando uma cesta com alimentos" height="311px" width='400px' />
+                        <img src={fotoEducacao} className='imgPhotoEducation'  alt="pessoa segurando uma cesta com alimentos" height="311px" width='400px' />
+                    </div>
                     </div>
 
                 </Grid>
                 {cardProps.map(card => {
                     return (
-                        <Grid item xs={4} justifyContent="center" display="flex">
+                        <Grid item xs={12} sm={6} md={4} justifyContent="center" display="flex">
                             <Card sx={{ maxWidth: 420 }} className='cardEduca'>
                                 <Cards
                                     cardConteudo={card.cardConteudo}
